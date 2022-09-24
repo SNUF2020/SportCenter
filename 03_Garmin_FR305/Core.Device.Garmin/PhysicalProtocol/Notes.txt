@@ -1,0 +1,140 @@
+﻿must compile with unsafe directive
+
+A30x 
+-is named such because there are a few track log application protocols.
+-Data type D304, D311 is linked with interface A302. I'm not too sure which of the remaining data types should be linked with
+ A300, A301. I need examples. Also this is for garmin forerunner 305 software version 2.90 GPS 3.00
+
+ -"garmin forerunner 305 software version 2.90 GPS 3.00" and 
+  "garmin forerunner 305 software version 2.80 GPS 3.00" support the same protocols
+
+
+
+Protocols to be implemented
+-----------------------------
+
+6.4  A100 – Waypoint Transfer Protocol
+6.5  A101 – Waypoint Category Transfer Protocol
+6.6  Route Transfer Protocol
+6.6.1   Database Matching for Route Waypoints
+6.6.2   A200 – Route Transfer Protocol 
+6.6.3   A201 – Route Transfer Protocol 
+
+6.8  A400 – Proximity Waypoint Transfer Protocol 
+6.9  A500 – Almanac Transfer Protocol 
+
+6.11   A650 – FlightBook Transfer Protocol 
+6.12   A700 – Position Initialization Protocol 
+6.13   A800 – PVT Protocol  
+
+6.16   A1002 – Workout Transfer Protocol  
+6.19   A1006 – Course Transfer Protocol  
+
+
+7.4  Product-Specific Data Types  
+7.4.1   D100_Wpt_Type  
+7.4.2   D101_Wpt_Type  
+7.4.3   D102_Wpt_Type  
+7.4.4   D103_Wpt_Type
+7.4.5   D104_Wpt_Type
+7.4.6   D105_Wpt_Type
+7.4.7   D106_Wpt_Type
+7.4.8   D107_Wpt_Type
+7.4.9   D108_Wpt_Type
+7.4.10  D109_Wpt_Type
+7.4.11  D110_Wpt_Type
+7.4.12  D120_Wpt_Cat_Type  
+7.4.13  D150_Wpt_Type
+7.4.14  D151_Wpt_Type
+7.4.15  D152_Wpt_Type
+7.4.16  D154_Wpt_Type
+7.4.17  D155_Wpt_Type
+7.4.18  D200_Rte_Hdr_Type
+7.4.19  D201_Rte_Hdr_Type
+7.4.20  D202_Rte_Hdr_Type
+7.4.21  D210_Rte_Link_Type 
+
+7.4.30  D400_Prx_Wpt_Type
+7.4.31  D403_Prx_Wpt_Type
+7.4.32  D450_Prx_Wpt_Type
+7.4.33  D500_Almanac_Type
+7.4.34  D501_Almanac_Type
+7.4.35  D550_Almanac_Type
+7.4.36  D551_Almanac_Type
+ 
+7.4.38  D650_FlightBook_Record_Type 
+7.4.39  D700_Position_Type 
+7.4.40  D800_Pvt_Data_Type  
+  
+7.4.42  D1000_Run_Type 
+
+7.4.44  D1002_Workout_Type 
+7.4.45  D1003_Workout_Occurrence_Type
+
+
+7.4.48  D1006_Course_Type  
+7.4.49  D1007_Course_Lap_Type  
+
+7.4.52  D1010_Run_Type 
+
+7.4.54  D1012_Course_Point_Type 
+  
+
+=================================
+DONE ============================
+=================================
+
+Application Protocols
+---------------------
+6  Application Protocols
+6.1  A000 – Product Data Protocol 
+6.1.1   Product_Data_Type  
+6.1.2   Ext_Product_Data_Type
+6.2  A001 – Protocol Capability Protocol
+6.2.1   Protocol_Array_Type
+6.2.2   Protocol_Data_Type
+6.2.3   Tag Values for Protocol_Data_Type
+6.2.4   Protocol Capabilities Example
+6.3  Device Command Protocols
+6.3.1   A010 – Device Command Protocol 1
+6.3.2   A011 – Device Command Protocol 2
+
+6.7  Track Log Transfer Protocol
+6.7.1   Time Values Ignored by Device 
+6.7.2   A300 – Track Log Transfer Protocol 
+6.7.3   A301 – Track Log Transfer Protocol 
+6.7.4   A302 – Track Log Transfer Protocol 
+
+6.10   A600 – Date and Time Initialization Protocol 
+
+6.14   A906 – Lap Transfer Protocol 
+6.15   A1000 – Run Transfer Protocol 
+6.17   A1004 – Fitness User Profile Transfer Protocol
+6.18   A1005 – Workout Limits Transfer Protocol
+
+6.20   A1009 – Course Limits Transfer Protocol
+
+
+Product specific data types
+---------------------------
+
+7.4.22  D300_Trk_Point_Type
+7.4.23  D301_Trk_Point_Type
+7.4.24  D302_Trk_Point_Type
+7.4.25  D303_Trk_Point_Type
+7.4.26  D304_Trk_Point_Type
+7.4.27  D310_Trk_Hdr_Type
+7.4.28  D311_Trk_Hdr_Type
+7.4.29  D312_Trk_Hdr_Type
+
+7.4.37  D600_Date_Time_Type 
+7.4.41  D906_Lap_Type
+7.4.43  D1001_Lap_Type 
+7.4.46  D1004_Fitness_User_Profile_Type
+7.4.47  D1005_Workout_Limits  
+
+7.4.50  D1008_Workout_Type 
+7.4.51  D1009_Run_Type 
+
+7.4.53  D1011_Lap_Type 
+7.4.55  D1013_Course_Limits_Type
