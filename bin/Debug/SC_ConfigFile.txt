@@ -1,0 +1,40 @@
+<SC_ConfigfFile>
+  <Api-Key 
+  Landscape="https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=xxx" 
+  Weather="xxxx" />	
+  <Directory 
+  WorkDir="C:\Users\..."
+  RoutDir="C:\Users\..."
+  SRTMDir="C:\Users\..." />
+  <StartPoint Lon="9.204" Lat="48.5203" Zoom="305.748113086" />
+  <Category>
+    <cat Value="Rennrad" />
+    <cat Value="CycloCross" />
+    <cat Value="MTB" />
+    <cat Value="SmartBike" />
+    <cat Value="Ergometer" />
+    <cat Value="ErgoMTB" />
+    <cat Value="ErgoRace" />
+    <cat Value="Laufen" />
+    <cat Value="Wandern" />
+    <cat Value="Schwimmen" />
+  </Category>
+  <Weather>
+    <cond Value="Indoor" />
+    <cond Value="Clear" />
+    <cond Value="ScatterClouds" />
+    <cond Value="PartClouds" />
+    <cond Value="Overcast" />
+    <cond Value="MostClouds" />
+    <cond Value="Clouds" />
+    <cond Value="ChanceRain" />
+    <cond Value="LightDrizzle" />
+    <cond Value="LightRain" />
+    <cond Value="Rain" />
+    <cond Value="HeavyRain" />
+    <cond Value="ChanceThunder" />
+    <cond Value="Thunder" />
+    <cond Value="Snow" />
+    <cond Value="Haze" />
+  </Weather>
+</SC_ConfigfFile>
